@@ -1,0 +1,20 @@
+{
+    "name": "guddu/speadsheet-api",
+    "description": "Spreadsheet api",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Guddu\\SpeadsheetApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guddu Kumar",
+            "email": "smartweb39@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
